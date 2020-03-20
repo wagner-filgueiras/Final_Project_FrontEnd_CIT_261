@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=initial-scale=1.0">   
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+  <meta name="viewport" content="width=initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <div class="login">
-  <h1>Login</h1>
-      <form method="post">
-        <input type="text" name="u" placeholder="Username" required="required" />
-          <input type="password" name="p" placeholder="Password" required="required" />
-          <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-      </form>
-      </div>
+    <h1>Login</h1>
+    <form method="post">
+      <input type="text" id="user" placeholder="Username" required="required" />
+      <input type="password" id="pass" placeholder="Password" required="required" />
+      <button id="logIn" type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+    </form>
+    <div id="formMessage">
+      <a href="../API/index.php">link</a>
+    </div>
+  </div>
 </body>
+
 </html>
